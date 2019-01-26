@@ -57,7 +57,7 @@
                                                         'data-animate': results[i].images.fixed_height.url,
                                                         'data-still':results[i].images.fixed_height_still.url,
                                                         'src': results[i].images.fixed_height_still.url
-                                                        }); // Giving the image tag an src attribute of a proprty pulled off the result item                
+                                                        });           
                     gifDiv.append(p);
                     gifDiv.append(animalImage);
                     $("#gifs-appear-here").prepend(gifDiv);
