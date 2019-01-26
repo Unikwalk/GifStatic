@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+  }
+  
+.bg { 
+/* The image used */
+    background-image: url("image1.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+h1 {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+h3 {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+button {
+    background-color: #f4429e;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+div{
+    text-align:center;
+}
+
+form {
+    text-align:center;
+}
+
+input {
+    margin: 0 auto;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+</head>
+<body class="bg">
+
+<div class="container">
+    <div class="row">
+            <h1>GifStastic</h1>
+        </div>
+    </div>
+    
+    <div class="row">
+        <h3>Select an Animal</h3>
+    </div>
+    
+    <div class="row">
+            <div class="col-sm-12"><div id="animals"></div>
+            </div> <!-- for button-->
+    </div>
+    <br>
+
+    <form id="animal-form">
+        <div class="form-group">
+            <label for="animal-input">Add Your Favorite Animal</label>
+            <input type="text" class="form-control" id="animal-input" a style="width: 300px">
+        </div>
+        <button id="add-animal" type="submit" value="Add an Animal!" class="btn btn-primary" style=": right;">Submit</button>
+    </form>
+
+
+    <div class="row" id="gifs-appear-here"></div>
+
+    <script src="main.js"></script>
+</div>    
+</body>
+</html>
+
